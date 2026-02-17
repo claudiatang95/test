@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lab Demo: CSS Concepts</title>
+  <link rel="stylesheet" href="lab-demo.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        Campus Coffee<span class="dot">•</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#menu">Menu</a>
+        <a href="#events">Events</a>
+        <a href="#visit">Visit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Hero">
+      <div class="container hero-content">
+        <h1>Study Better</h1>
+        <p class="hero-subhead">Coffee, quiet corners, and weekly campus meetups.</p>
+        <a class="btn btn-dark" href="#visit">Plan a Visit</a>
+        <a class="btn btn-outline" href="#events">See Events</a>
+      </div>
+    </section>
+
+    <section class="features" id="menu">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature">
+            <div class="icon" aria-hidden="true">☕</div>
+            <h2>Simple Menu</h2>
+            <p>Classic drinks and quick snacks—easy to choose, easy to order.</p>
+          </div>
+          <div class="feature">
+            <div class="icon" aria-hidden="true">📚</div>
+            <h2>Study Space</h2>
+            <p>Comfortable tables, outlets, and a layout that stays uncluttered.</p>
+          </div>
+          <div class="feature">
+            <div class="icon" aria-hidden="true">🗓️</div>
+            <h2>Weekly Events</h2>
+            <p>Low-pressure meetups for students who want community time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards" id="events">
+      <div class="container">
+        <h2 class="section-title">This Week</h2>
+        <p class="section-lede">Two examples of “card layout” for practicing CSS grid/flex and background images.</p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card-text">
+              <h3>Open Mic Night</h3>
+              <p>Short sets, supportive vibe. Come listen or share something.</p>
+              <a class="btn btn-outline" href="#visit">Details</a>
+            </div>
+            <div class="card-image img-a" aria-label="People gathered"></div>
+          </article>
+
+          <article class="card">
+            <div class="card-text">
+              <h3>Study Sprint</h3>
+              <p>Bring a task. We do 25 minutes focused work, then a short break.</p>
+              <a class="btn btn-outline" href="#visit">Details</a>
+            </div>
+            <div class="card-image img-b" aria-label="Desk setup"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="visit">
+      <div class="container cta-inner">
+        <h2>Ready to stop by?</h2>
+        <p>Use this section to demonstrate centered layout + spacing.</p>
+        <a class="btn btn-dark" href="#">Get Directions</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p><strong>Campus Coffee</strong> is a fictional demo site for LIS 351 lab practice.</p>
+        <p><a href="#">Accessibility statement</a></p>
+      </div>
+
+      <div class="footer-cols" aria-label="Footer links">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#menu">Menu</a>
+          <a href="#events">Events</a>
+        </div>
+        <div class="footer-col">
+          <h4>Info</h4>
+          <a href="#visit">Visit</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
